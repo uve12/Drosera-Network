@@ -256,7 +256,7 @@ docker compose up -d
 
 Check logs:
 ```bash
-docker logs -f drosera-node
+docker logs -f drosera-node1
 ```
 
 ✅ Warning logs like `InsufficientPeers` can be ignored.
@@ -299,6 +299,7 @@ Then:
 ```bash
 DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```
+**use first wallet private_key**
 
 Register the 2nd Operator:
 ```bash
@@ -314,6 +315,13 @@ sudo ufw allow 31316/tcp
 Edit yaml 
 ```
 cd $HOME/Drosera-Network
+```
+```
+docker compose down -v
+docker stop drosera-node1
+docker rm drosera-node1
+```
+```
 nano docker-compose.yaml
 ```
 
@@ -364,13 +372,6 @@ P2P_PORT2=31315
 SERVER_PORT2=31316
 ```
 ### Run Multiple operator
-**Stop old docker**
-
-```
-docker compose down -v
-docker stop drosera-node
-docker rm drosera-node
-```
 
 Start Operator
 ```
@@ -388,10 +389,17 @@ Restart Operators
 
 ```
 cd ~/Droseta-Network
+docker compose down -v
+docker stop drosera-node1
+docker rm drosera-node1
+docker stop drosera-node2
+docker rm drosera-node2
 docker compose up -d
 ```
 
 ---
+
+**Follow** : https://x.com/cryptoconsol
 
 
 
