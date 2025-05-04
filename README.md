@@ -149,7 +149,7 @@ forge build
 
 Deploy the Trap:
 ```bash
-DROSERA_PRIVATE_KEY=your_private_key drosera apply --eth-rpc-url https://your-rpc-url
+DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```
 > Replace `your_private_key` with your funded Holesky wallet key.
 > Type ofc and press enter
@@ -192,10 +192,8 @@ whitelist = ["Your_Operator_Address"]
 CTRL + X, Y and Enter
 
 ```bash
-DROSERA_PRIVATE_KEY=your_private_key drosera apply --eth-rpc-url RPC
+DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```
-
-**Replace privatekey and RPC**
 
 ---
 
@@ -299,7 +297,7 @@ whitelist = ["1st_Operator_Address", "2nd_Operator_Address"]
 
 Then:
 ```bash
-DROSERA_PRIVATE_KEY=your_private_key drosera apply --eth-rpc-url RPC
+DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```
 
 Register the 2nd Operator:
