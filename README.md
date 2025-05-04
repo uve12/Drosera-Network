@@ -390,10 +390,6 @@ Restart Operators
 ```
 cd ~/Droseta-Network
 docker compose down -v
-docker stop drosera-node1
-docker rm drosera-node1
-docker stop drosera-node2
-docker rm drosera-node2
 docker compose up -d
 ```
 
