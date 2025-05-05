@@ -147,6 +147,8 @@ bun install
 forge build
 ```
 
+**Holesky Faucet** : https://cloud.google.com/application/web3/faucet
+
 Deploy the Trap:
 ```bash
 DROSERA_PRIVATE_KEY=your_private_key drosera apply
