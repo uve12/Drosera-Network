@@ -390,7 +390,7 @@ drosera-operator optin --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com
 Restart Operators
 
 ```
-cd ~/Droseta-Network
+cd ~/Drosera-Network
 docker compose down -v
 docker compose up -d
 ```
