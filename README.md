@@ -28,7 +28,7 @@ VPS 4C : [contabo VPS 4C](https://www.kqzyfj.com/click-101278318-13796470)
 
 VPS 6C : [Contabo VPS 6C](https://www.kqzyfj.com/click-101278318-13796472)
 
-VPS 8C : [Contabo VPS 8C](https://www.tkqlhce.com/click-101278318-13796474)
+VPS 8C : [Contabo VPS 8C](https://www.jdoqocy.com/click-101278318-13796474)
 
 VPS 10C : [Contabo VPS 10C](https://www.anrdoezrs.net/click-101278318-13796476)
 
